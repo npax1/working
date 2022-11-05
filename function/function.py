@@ -1,7 +1,10 @@
-n = int(input("Enter number"))
-sum = 0
-for num in range(1, n + 1, 1):
-    sum = sum + num
-print("Sum of first ", n, "numbers is: ", sum)
-average = sum / n
-print("Average of ", n, "numbers is: ", average)
+s=int(input("add text"))
+num_list = [s]
+res = sum(num_list)
+avg = res / len(num_list)
+print("sum is: ", res, "Average is: ", avg)
+res1 = 0
+for num in num_list:
+    res1 += num
+avg1 = res1 / len(num_list)
+print("sum is: ", res1, "Average is: ", avg1)
