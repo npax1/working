@@ -1,1 +1,2 @@
-taxti=input('text&&&&')
+text=input('text')
+print(text.capitalizq())
