@@ -1,5 +1,7 @@
 s=int(input("add text"))
-num_list = [s]
+a=int(input("add text"))
+d=int(input("add text"))
+num_list = [s, a, d]
 res = sum(num_list)
 avg = res / len(num_list)
 print("sum is: ", res, "Average is: ", avg)
