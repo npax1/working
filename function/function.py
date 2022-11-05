@@ -5,3 +5,5 @@ def ex_3 (arr):
         nums_sum+=i
     mean=nums_sum / len(nums)
     return f'Sum = {nums_sum}, arti mean= {mean}'
+
+
